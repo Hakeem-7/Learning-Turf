@@ -1,0 +1,54 @@
+---
+title: "LinkedIn Learning"
+author: "Akeem Ajede"
+date: "9/7/2019"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+
+
+# Including Plots
+
+You can also embed plots, for example:
+
+```{r graphics, echo=FALSE}
+set.seed(101)
+x = rnorm(100)
+y = rnorm(100)
+plot(x,y,xlab = "this is the x-axis", ylab = "this is the y-axis", main ="Plot of X vs Y")
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+
+
+
+```{r graphic}
+set.seed(101)
+x = rnorm(100)
+y = rnorm(100)
+plot(x,y,xlab = "this is the x-axis", ylab = "this is the y-axis", main ="Plot of X vs Y")
+```
+
+
+
+
+
+The plot was reproduced w/o using the `echo = FALSE` argument to prevent the printing of the R code.
+
+
+tinytex::install_tinytex()
+
