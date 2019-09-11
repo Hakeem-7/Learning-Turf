@@ -24,10 +24,17 @@ When you click the **Knit** button a document will be generated that includes bo
 You can also embed plots, for example:
 
 ```{r graphics, echo=FALSE}
+
 set.seed(101)
+
 x = rnorm(100)
+
 y = rnorm(100)
-plot(x,y,xlab = "this is the x-axis", ylab = "this is the y-axis", main ="Plot of X vs Y")
+
+plot(x,y, xlab = "this is the x-axis", ylab = "this is the y-axis", main ="Plot of X vs Y")
+
+
+
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
@@ -41,6 +48,8 @@ set.seed(101)
 x = rnorm(100)
 y = rnorm(100)
 plot(x,y,xlab = "this is the x-axis", ylab = "this is the y-axis", main ="Plot of X vs Y")
+
+
 ```
 
 

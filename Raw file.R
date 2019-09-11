@@ -200,4 +200,5 @@ summary(mpg)
 Auto
 fix(Auto)
 
-
+dt(0.05,94)
+?dt
